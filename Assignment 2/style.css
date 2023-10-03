@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a72626;
+    margin: 0;
+    padding: 0;
+     background-image: url('chris.jpg'); 
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #ffffff04;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.lyrics p {
+    margin: 0.5rem 0;
+    line-height: 1.4;
+    white-space: pre-line;
+}
+
+.lyrics .chorus {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.lyrics .emotion {
+    font-style: italic;
+    color: #ff5733;
+}
+
